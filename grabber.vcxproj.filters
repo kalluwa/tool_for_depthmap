@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{863fd99c-b8ac-4a4a-b24f-cedf61cfe5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="appcenter">
+      <UniqueIdentifier>{ca5d513a-e458-4480-bce1-2b704d677469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implements">
+      <UniqueIdentifier>{f50b4add-13be-4e4c-a506-cfe2c7d5568c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{0d5d5aae-d08d-4a34-b154-1069f3508e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{73be764d-e59d-455e-88ba-362bfd88bd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\core">
+      <UniqueIdentifier>{2ea43c92-2ce2-446e-9c55-0b34a1675f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\glew">
+      <UniqueIdentifier>{df199a1f-bac4-40f3-aa5a-98bb7435aeaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\glsw">
+      <UniqueIdentifier>{7c49799c-e987-4323-ac8d-c81acf6a7486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\alglib">
+      <UniqueIdentifier>{be2dffc2-3158-4fbf-8fa4-8ec37bd3e2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\glut">
+      <UniqueIdentifier>{d926ed03-ceb3-4774-8836-7e8b6fe7375a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\openglText">
+      <UniqueIdentifier>{a55d2e29-ac2c-481f-ae3b-9f36fdd9a46e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationCenter.cpp">
+      <Filter>appcenter</Filter>
+    </ClCompile>
+    <ClCompile Include="CDotRenderer.cpp">
+      <Filter>implements</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingWrapper.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="CMarchingCubeProcessor.cpp">
+      <Filter>implements</Filter>
+    </ClCompile>
+    <ClCompile Include="CMarchingCubeRenderer.cpp">
+      <Filter>implements</Filter>
+    </ClCompile>
+    <ClCompile Include="MarchingCube.cpp">
+      <Filter>implements</Filter>
+    </ClCompile>
+    <ClCompile Include="Definitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\CArcCamera.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="CRayCastRenderer.cpp">
+      <Filter>implements</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\glsw\bstrlib.c">
+      <Filter>lib\glsw</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\glsw\glsw.c">
+      <Filter>lib\glsw</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateProgram.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="CCpuDepthProcessor.cpp">
+      <Filter>implements</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\fasttransforms.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\integration.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\interpolation.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\linalg.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\optimization.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\solvers.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\specialfunctions.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\statistics.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\alglibinternal.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\alglibmisc.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\ap.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\dataanalysis.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="gllib\alglib\diffequations.cpp">
+      <Filter>lib\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\PictureBox.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="CCpuDepthRenderer.cpp">
+      <Filter>implements</Filter>
+    </ClCompile>
+    <ClCompile Include="glText.cpp">
+      <Filter>lib\openglText</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="glwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\moc_glwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_glwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VolumeData.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IBase.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHelper.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IDataProcessor.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IDataRenderer.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatDataArray.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationCenter.h">
+      <Filter>appcenter</Filter>
+    </ClInclude>
+    <ClInclude Include="CDotRenderer.h">
+      <Filter>implements</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingWrapper.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataToFloatProcessor.h">
+      <Filter>implements</Filter>
+    </ClInclude>
+    <ClInclude Include="CMarchingCubeProcessor.h">
+      <Filter>implements</Filter>
+    </ClInclude>
+    <ClInclude Include="CMarchingCubeRenderer.h">
+      <Filter>implements</Filter>
+    </ClInclude>
+    <ClInclude Include="MarchingCube.h">
+      <Filter>implements</Filter>
+    </ClInclude>
+    <ClInclude Include="MarchingCubeTable.h">
+      <Filter>implements</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\aabbox3d.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\core.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\heapsort.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\kkArray.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\kkMath.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\kkString.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\line2d.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\line3d.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\matrix4.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\plane3d.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\quaternion.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\rect.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\triangle3d.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Types.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\vector2d.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\vector3d.h">
+      <Filter>lib\core</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\CArcCamera.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="CRayCastRenderer.h">
+      <Filter>implements</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\glew\glew.h">
+      <Filter>lib\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\glew\glxew.h">
+      <Filter>lib\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\glew\wglew.h">
+      <Filter>lib\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\glsw\bstrlib.h">
+      <Filter>lib\glsw</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\glsw\glsw.h">
+      <Filter>lib\glsw</Filter>
+    </ClInclude>
+    <ClInclude Include="CCpuDepthProcessor.h">
+      <Filter>implements</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\diffequations.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\fasttransforms.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\integration.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\interpolation.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\linalg.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\optimization.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\solvers.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\specialfunctions.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\statistics.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\stdafx.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\alglibinternal.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\alglibmisc.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\ap.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="gllib\alglib\dataanalysis.h">
+      <Filter>lib\alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\PictureBox.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageHelper.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCpuDepthRenderer.h">
+      <Filter>implements</Filter>
+    </ClInclude>
+    <ClInclude Include="glText.h">
+      <Filter>lib\openglText</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="grabber.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Projects\OpenGLFont\Debug\glut32.dll">
+      <Filter>lib\glut</Filter>
+    </None>
+  </ItemGroup>
+</Project>
